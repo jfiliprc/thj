@@ -1,0 +1,853 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+.navbar {
+  background-color: white;
+  padding-left: 4.375rem;
+  padding-right: 4.375rem;
+}
+
+.navlogo-div {
+  width: 5.625rem;
+}
+
+.navlogo {
+  width: 6.25rem;
+  height: 3.125rem;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-inner > .item {
+  -webkit-transition: 0s !important;
+  -o-transition: 0s !important;
+  transition: 0s !important;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+button {
+  font-size: 0.75rem;
+  height: 2.5rem;
+  width: 12.5rem;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14),
+    0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.12),
+    0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-franqueado {
+  text-align: center;
+  text-justify: center;
+  background-color: #504ce4;
+  color: white;
+  border-radius: 2.875rem;
+}
+
+.navtxt {
+  padding-top: 20%;
+}
+
+.blue-text {
+  color: #00a0e2;
+  font-family: "Bowlby One";
+  position: absolute;
+}
+
+.blue-text-na {
+  color: #00a0e2;
+  font-family: "Bowlby One";
+}
+
+.white-txt {
+  color: white;
+  font-family: "Bowlby One";
+}
+
+.carousel-caption {
+  top: 5.125rem;
+  right: 62.5rem;
+  left: 0rem;
+  bottom: 38.75rem;
+}
+
+.carousel-inner {
+  height: 40.625rem;
+}
+
+.bg-azul {
+  width: 98.9375rem;
+  height: 25rem;
+}
+
+#slides {
+  height: 70%;
+}
+
+.background-image {
+  background-image: url("img/background azul.jpg");
+
+  width: 100%;
+  height: 22.5rem;
+}
+
+.info-text {
+  font-size: medium;
+  text-align: center;
+
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+.background-image-2 {
+  width: 100%;
+  height: 37.5rem;
+}
+
+.img-bg {
+  width: 100%;
+  height: 40.625rem;
+}
+
+.bottom-text {
+  top: 87.5rem;
+  right: 62.5rem;
+  left: 10%;
+  bottom: 38.75rem;
+}
+
+.navbar-brand {
+  padding-right: 55%;
+  padding-left: 55%;
+  text-align: center;
+}
+
+.banner-card {
+  position: relative;
+}
+
+.banner-img {
+  width: auto;
+  height: auto;
+}
+
+.owl-carousel {
+  position: relative;
+  bottom: 32rem;
+}
+
+.owl-dot {
+  width: 20px;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  width: calc(25% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(#b8b4b4, #b8b4b4);
+  transition: all 0.5s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  background-image: linear-gradient(#080434, #080434);
+}
+
+.card .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+  z-index: 2;
+  position: relative;
+  opacity: 0.8;
+}
+
+.card .img span {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  transition: all 0.5s;
+}
+
+.card:hover .img {
+  width: 110%;
+  opacity: 1;
+}
+
+.card:hover .img span {
+  font-size: 28px;
+}
+
+.card .content {
+  padding: 0px 20px;
+  height: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translateY(30px);
+}
+
+.card:hover .content {
+  height: 260px;
+  padding: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card .content p {
+  margin: 0;
+}
+
+.card .content .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card .content .desc {
+  font-size: 14px;
+  font-weight: 100;
+  opacity: 0.8;
+  margin-top: 8px;
+}
+
+.card .arrow {
+  padding: 15px;
+  transform: rotate(-180deg);
+  transition: all 0.5s;
+}
+
+.card:hover .arrow {
+  transform: rotate(0);
+}
+
+.card .arrow span {
+  font-size: 24px;
+}
+
+.input-text {
+  color: black;
+}
+
+.data-passo-1 {
+  padding-left: 2rem;
+}
+
+.white-obj {
+  color: white;
+}
+
+.owl-next {
+  color: white !important;
+  background-color: #00a0e2 !important ;
+}
+
+.owl-prev {
+  color: white !important;
+  background-color: #00a0e2 !important ;
+}
+
+.info-1 {
+  padding: 0 0;
+  font-weight: 300;
+}
+
+.circle-row {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  position: relative;
+  display: block;
+  margin: 2em 0;
+  background-color: transparent;
+  color: #222;
+  text-align: center;
+  flex: 1;
+  margin: 0 1em;
+  max-width: 200px;
+}
+
+.circle:after {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ddd;
+  content: "";
+  padding-bottom: 100%;
+}
+
+.circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__content {
+  display: table-cell;
+  padding: 1em;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+/*---Media Queries --*/
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .info-1 {
+    font-size: 1.3rem !important;
+  }
+  .container {
+    transform: scale(0.95) !important;
+    top: 204rem;
+    gap: 30px;
+    width: 90rem;
+    right: 0px;
+    left: 0px;
+  }
+  .blue-text {
+    font-size: 3rem;
+  }
+  .cadastro-link {
+    top: 28rem;
+  }
+  .info-text {
+    font-size: 1.3rem;
+  }
+  .quem-somos-h1 {
+    top: 8.125rem;
+  }
+  .silva-mattos-img {
+    top: 14.7%;
+  }
+  .txt1 {
+    font-size: large !important;
+    top: 17%;
+    right: 60%;
+    left: 1%;
+    margin-bottom: 30%;
+    padding-left: 4.0625rem;
+    padding-right: 3.75rem;
+    padding-top: 7%;
+  }
+  .txt2 {
+    top: 17%;
+    margin-bottom: 30%;
+    margin-top: 1.5%;
+    font-size: large !important;
+    left: 50%;
+  }
+  .star-racer-img {
+    width: 25rem;
+    top: 14%;
+    left: 57%;
+  }
+  .segmentostxt {
+    top: 44.3%;
+    left: 5%;
+    font-size: 3.5vw;
+    margin-bottom: 10%;
+  }
+  .owl-stage-outer {
+  }
+
+  .image-slider {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .bgimg2 {
+    height: 118.75rem;
+  }
+  .youtube-video {
+    width: 590px;
+    height: 315px;
+  }
+  .personalizados-desc {
+    top: 14vw;
+    font-size: medium !important;
+    text-align: left;
+    left: 45vw;
+  }
+  .personalizados-title {
+    bottom: 22.5vw;
+    left: 43.75rem;
+    font-size: 3vw;
+    margin-left: 6vw;
+  }
+  .laptop-desc {
+    top: 15vw !important;
+    left: 40vw !important;
+    font-size: medium !important;
+  }
+  .b2b-title {
+    bottom: 19.5vw !important;
+    left: 46.7rem !important;
+    font-size: 6vw !important;
+    margin-left: 6vw !important;
+  }
+  .seja-revendedor-title {
+    padding-top: 5rem !important;
+    font-size: 3.6rem !important;
+  }
+  .cadastro-completo-text {
+    padding-top: 2.5rem;
+    padding-left: 3.6rem;
+    font-size: 1.7rem;
+  }
+  .white-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  #button-cadastro {
+    left: 27%;
+    bottom: 20px;
+    font-size: 1rem;
+  }
+  .cadastro-info-text {
+    font-weight: 400;
+    padding-top: 0px;
+  }
+  .document-bottom {
+    height: 200px;
+  }
+  .title-1 {
+    top: 10rem;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  .text-personalizados-sec {
+    bottom: 43.6rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+  .carousel-inner {
+    height: 390px;
+  }
+  .title-1 {
+    top: 5%;
+  }
+  .cadastro-link {
+    top: 16rem;
+  }
+  .button-text {
+    margin-bottom: 0px;
+  }
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blue-bg-2 {
+    height: 1000px;
+  }
+  .txt2 {
+    font-size: 0.6rem !important;
+    position: absolute;
+    text-align: left;
+    left: 90px;
+    padding-left: 130px;
+    right: 0px;
+    margin-top: 48px;
+  }
+  .txt1 {
+    font-size: 0.6rem !important;
+    top: 50px;
+    right: 60%;
+    left: 1%;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+}
+.text-personalizados-sec {
+  bottom: 0 !important;
+}
+
+.yt-banner {
+  height: 50%;
+  width: 90%;
+}
+
+.rounded-card {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+  .cadastro-sec {
+    margin-top: 25rem !important;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .white-box {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .politica-text {
+    padding-left: 4% !important;
+    padding-bottom: 15% !important;
+  }
+
+  .b2b-sec {
+    padding-top: 10rem;
+  }
+
+  .yt-banner {
+    height: 30% !important;
+    margin-bottom: 50% !important;
+    width: 100% !important;
+  }
+  .text-personalizados-sec {
+    bottom: 22.6rem !important;
+  }
+  .text-personalizados {
+    font-size: 0.8rem !important;
+  }
+  .container-nm {
+    max-width: 600rem;
+  }
+  .container-nm {
+    width: 170%;
+    grid-column-gap: 0 !important;
+  }
+  .grid-item {
+    width: 10rem;
+  }
+  .card .img {
+    width: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-image: url("./assets/Evelynn.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s;
+    z-index: 2;
+    position: relative;
+    opacity: 0.8;
+  }
+  .cont-2 {
+    height: 190px !important;
+  }
+  .title-1 {
+    top: 2.7rem;
+  }
+  .owl-item {
+    width: 20rem !important;
+  }
+  .blue-text {
+    font-size: 1rem;
+  }
+  .carousel-inner {
+    height: 215px;
+  }
+  .navbar-expand-md {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .cadastro-link {
+    top: 8rem;
+  }
+  .info-text {
+    font-size: 0.7rem;
+  }
+  .button-text {
+    padding-top: 6px;
+  }
+  .button-text-2 {
+    font-size: 1rem !important;
+  }
+
+  .background-image {
+    padding-top: 5%;
+    height: 12rem;
+  }
+  .quem-somos-h1 {
+    top: 0px;
+  }
+  .silva-mattos-img {
+    top: 35px;
+    width: 14rem;
+  }
+  .txt1 {
+    font-size: 0.6rem !important;
+    top: 50px;
+    right: 60%;
+    left: 1%;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .txt2 {
+    font-size: 0.6rem !important;
+    position: absolute;
+    text-align: left;
+    left: 90px;
+    padding-left: 130px;
+    right: 0px;
+    margin-top: 48px;
+  }
+  .star-racer-img {
+    width: 8rem;
+    top: 1.5rem;
+    left: 57%;
+  }
+  .segmentostxt {
+    top: 350px;
+    padding-left: 0px;
+    left: 20px;
+  }
+
+  .bgimg2 {
+    height: 40rem;
+  }
+  .cards-og {
+    width: 50%;
+  }
+  .video-desc {
+    font-size: 0.5;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .youtube-video {
+    width: 160px;
+    height: 95px;
+    padding-bottom: 10px;
+  }
+  .personalizados-desc {
+    top: 60px !important;
+    font-size: 6.8px !important;
+    left: 9.5rem;
+    text-align: left;
+    padding-top: 0px;
+  }
+  .personalizados-title {
+    left: 187px;
+    top: 40px;
+    font-size: 8px;
+  }
+  .laptop-desc {
+    top: 13vw !important;
+    left: 34vw !important;
+    font-size: 7px !important;
+    text-align: left;
+  }
+  .b2b-title {
+    bottom: 19.5vw !important;
+    left: 8.8rem !important;
+    font-size: 6vw !important;
+    margin-left: 6vw !important;
+  }
+  .container-nm {
+    top: 15rem !important;
+  }
+  .card {
+    transform: scale(1) !important;
+  }
+  .seja-revendedor-title {
+    padding-top: 10px !important;
+    font-size: 1.6rem !important;
+  }
+  .cadastro-completo-text {
+    padding-top: 6px;
+    font-size: 0.7rem;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .cadastro-info-text {
+    font-size: 0.5rem;
+    position: absolute;
+    font-weight: 400;
+    padding-top: 0px;
+    top: 20px;
+    margin-top: 10px;
+  }
+  #button-cadastro {
+    position: absolute;
+    left: 20%;
+    bottom: 20px;
+    font-size: 0.5rem;
+    width: 100px;
+    height: 20px;
+    top: 110px;
+  }
+  .document-bottom {
+    height: 60px;
+  }
+}
+
+/*---Firefox Bug Fix --*/
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url("img/mac.png");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 16px;
+}
+
+.indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 36rem)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 36rem and up)
+@media (min-width: 36rem) { ... }
+
+Medium (md) devices (tablets, 48rem and up)
+@media (min-width: 48rem) { ... }
+
+Large (lg) devices (desktops, 62rem and up)
+@media (min-width: 62rem) { ... }
+
+Extra (xl) large devices (large desktops, 75rem and up)
+@media (min-width: 75rem) { ... }
+*/
